@@ -36,9 +36,10 @@ Now..you maybe asking..thats it?  yeah pretty much...this has very little curren
 
 is it efficient to use BQ like this?  nope, not in its current form...
 
-{{% notice note %}}
-This is just for amusement..this has little practical value as far as i can tell...just enjoy
-{{% /notice %}}
+>> This is just for amusement..this has little practical value as far as i can tell...just enjoy
+
+If you want to jump to the good stuff, [go here](#view-encrypted-columns)
+
 
 ![images/thumbnail.png](images/thumbnail.png)
 
