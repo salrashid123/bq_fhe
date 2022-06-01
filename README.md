@@ -338,7 +338,7 @@ thats right, x and y columns are encrypted forms of the integers we inserted
 
 ### Encrypt
 
-Encrypt two number...the same two numbers as in the code we used to insert the row `3,2`
+Encrypt two number...the same two numbers as in the code we used (the encrypted bytes will be different)
 
 ```bash
 bq  query --use_legacy_sql=false  "SELECT 
@@ -355,7 +355,7 @@ bq  query --use_legacy_sql=false  "SELECT
 
 ### Encrypt/Decrypt
 
-Run a cycle
+Run a cycle to encrypt and then decrypt some numbers
 
 ```bash
 bq  query --use_legacy_sql=false  "SELECT 
