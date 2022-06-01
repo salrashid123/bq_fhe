@@ -2,13 +2,9 @@
 
 Several [BigQuery Remote functions](https://cloud.google.com/bigquery/docs/reference/standard-sql/remote-functions) that'll let you perform some very basic math though [homomorphic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption)
 
-What?
-
 From wikipedia:
 
-```
-Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, result in an identical output to that produced had the operations been performed on the unencrypted data. Homomorphic encryption can be used for privacy-preserving outsourced storage and computation. This allows data to be encrypted and out-sourced to commercial cloud environments for processing, all while encrypted.
-```
+_Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, result in an identical output to that produced had the operations been performed on the unencrypted data. Homomorphic encryption can be used for privacy-preserving outsourced storage and computation. This allows data to be encrypted and out-sourced to commercial cloud environments for processing, all while encrypted._
 
 meaning Alice can encrypt some numbers, give it to Bob, he can perform some basic math on it _while its still under encryption_ and give Alice the result back which she can decrypt to see the result....
 
