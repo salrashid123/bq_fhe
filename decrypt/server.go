@@ -31,7 +31,7 @@ type bqResponse struct {
 const (
 	// of course you should load this from some secure source
 	// GCP Secrets Engine does now allow large values so you may need to load this by some other way (eg, store encrypted using KMS keyref)
-	secretKeyURL = "https://gist.githubusercontent.com/salrashid123/ef8e168fb868cc5f2783aff2051c63f4/raw/9f300f40c5071f0ea8732db9002ac5fe36d508df/sec.b64"
+	secretKeyURL = "https://raw.githubusercontent.com/salrashid123/bq_fhe/main/app/sec.b64"
 )
 
 var (

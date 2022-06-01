@@ -29,7 +29,7 @@ type bqResponse struct {
 }
 
 const (
-	pubKeyURL = "https://gist.githubusercontent.com/salrashid123/38389be8474f65275024ec79dec48948/raw/43c988b1ba7436999cc5c2cab5b278d9075a53b2/public.b64"
+	pubKeyURL = "https://raw.githubusercontent.com/salrashid123/bq_fhe/main/app/pub.b64"
 )
 
 var (
