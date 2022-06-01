@@ -332,13 +332,13 @@ FROM $PROJECT_ID.fhe.xy  AS ecd1"
 
 ```
 
-thats right, x and y columns are encrypted forms of the integers we inserted
+thats right, x and y columns are encrypted forms of the integers we inserted (which was `x=3, y=2`)
 
 >> note, the FHE encrypted stuff is huuuuge...i'm only showing the first 20
 
 ### Encrypt
 
-Encrypt two number...the same two numbers as in the code we used (the encrypted bytes will be different)
+Encrypt two numbers...the same two numbers as in the code we used (the encrypted bytes will be different)
 
 ```bash
 bq  query --use_legacy_sql=false  "SELECT 
@@ -379,7 +379,7 @@ bq  query --use_legacy_sql=false  "SELECT
 
 ### x+y
 
-Let add those two encrypted values:
+Let add those two encrypted values..in this case its the two encrypted columns in bigquery.
 
 ```bash
 bq  query \
