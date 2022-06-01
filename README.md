@@ -76,8 +76,8 @@ I've provided the public and secret keys here already for you.  If you want to g
 
 ```golang
 const (
-	pubKeyURL = "https://gist.githubusercontent.com/salrashid123/38389be8474f65275024ec79dec48948/raw/43c988b1ba7436999cc5c2cab5b278d9075a53b2/public.b64"
-	secretKeyURL = "https://gist.githubusercontent.com/salrashid123/ef8e168fb868cc5f2783aff2051c63f4/raw/9f300f40c5071f0ea8732db9002ac5fe36d508df/sec.b64"
+	pubKeyURL = "https://raw.githubusercontent.com/salrashid123/bq_fhe/main/app/pub.b64"
+	secretKeyURL = "https://raw.githubusercontent.com/salrashid123/bq_fhe/main/app/sec.b64"
 )
 ```
 
